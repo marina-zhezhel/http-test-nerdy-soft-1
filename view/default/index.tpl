@@ -40,8 +40,6 @@
 					href="./index.php?controller=static&page=my-tasks">Menu3</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-
-
 				<li class="dropdown"><a href="#"
 					class="dropdown-toggle menu-avatar" data-toggle="dropdown"> <?php
 					echo $firstName;
