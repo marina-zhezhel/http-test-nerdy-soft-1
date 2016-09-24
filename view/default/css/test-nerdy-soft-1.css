@@ -1,0 +1,160 @@
+.authorization-wrapper, .registration-wrapper {
+	margin-top: 5%;
+}
+
+#login, #email, #first-name, #last-name, #password, #name, #description,
+	#responsible, #coauthors {
+	display: block;
+	width: 100%;
+	margin: 10px 0px;
+	padding: 10px 0px;
+}
+
+.logo img {
+	width: 50px;
+}
+
+.switch-pages {
+	background: #ffffff;
+	border-bottom: thin solid black;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	border-radius: 0px;
+}
+
+.menu-avatar {
+	padding-right: 0px !important;
+}
+
+.menu-li {
+	padding-top: 15px;
+}
+
+.navbar-toggle {
+	margin-top: 15px;
+}
+
+.header-ten-tasks-table {
+	border-top: thin solid black;
+	border-left: thin solid black;
+	background: #c0c0c0;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.header-ten-tasks-table-last {
+	border-right: thin solid black;
+}
+
+.ten-tasks-wrapper .row {
+	border-bottom: thin solid black;
+}
+
+.ten-tasks-view {
+	border-right: thin solid black;
+}
+
+.ten-tasks-date, .ten-tasks-name, .ten-tasks-description,
+	.ten-tasks-responsible, .ten-tasks-coauthors, .ten-tasks-view {
+	border-left: thin solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.submit, .back-add-task, .add-task-button {
+	border-radius: 0px;
+	background: #c0c0c0;
+	border: thin solid black;
+	color: #000;
+}
+
+.add-task-button {
+	float: right;
+}
+
+.create {
+	text-align: right;
+}
+
+.reset {
+	background: #ffffff;
+	text-decoration: underline;
+	float: right;
+}
+
+.my-tasks-text {
+	margin-bottom: 20px;
+}
+
+.next-task {
+	text-align: right;
+}
+
+.pagination-centered {
+	display: block;
+}
+
+.next-task, .prev-task {
+	border: none !important;
+	text-decoration: underline;
+}
+
+.next-task:hover, .prev-task:hover {
+	border: none !important;
+	background: #ffffff !important;
+}
+
+.add-task .row .row {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.add-task {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.none {
+	display: none;
+}
+
+.error-massage {
+	color: red;
+}
+
+.equal, .equal div[class*='col-'] {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex: 1 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+	.header-ten-tasks-table, .header-ten-tasks-table-last {
+		border-right: thin solid black;
+	}
+	.ten-tasks-date, .ten-tasks-name, .ten-tasks-description,
+		.ten-tasks-responsible, .ten-tasks-coauthors, .ten-tasks-view {
+		border-right: thin solid black;
+		border-bottom: thin solid black;
+	}
+	.equal, .equal div[class*='col-'] {
+		display: list-item !important;
+	}
+	.mark, .model, .reg-plate, .year, .body-type, .service-type, .date,
+		.task-add-task, .upload-file, .subject, .message-support, .start-time
+		{
+		width: 100%;
+	}
+	.padding-profile {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
